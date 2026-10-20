@@ -2,6 +2,26 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div>Navbar</div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img style={{width:'110px'}} src="public/logo.svg" alt="" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="/signup">Signup</a>
+        <a class="nav-link active" aria-current="page" href="#">About</a>
+        <a class="nav-link active" aria-current="page" href="#">Product</a>
+        <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+        <a class="nav-link active" aria-current="page" href="#">Support</a>
+        <a class="nav-link active" aria-current="page" href="#">Login</a>
+
+      </div>
+    </div>
+  </div>
+</nav>
   )
 }
