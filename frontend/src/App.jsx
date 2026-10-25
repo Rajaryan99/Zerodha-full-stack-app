@@ -1,15 +1,8 @@
-
 import './App.css'
-import HomePage from './landing_page/home/HomePage'
+import Router from './router/Router'
 
 function App() {
-
-  return (
-    <>
-
-    <HomePage/> 
-    </>
-  )
+  return <Router />
 }
 
 export default App
